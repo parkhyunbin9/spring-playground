@@ -11,6 +11,8 @@ public @interface DurationMonitor {
 
     int warn() default 1000;
     int error() default 3000;
+    int errorLimit() default 3;
+    int warnLimit() default 10;
 
 
 }
